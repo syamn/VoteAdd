@@ -1,0 +1,22 @@
+##  Plugin Information  ##
+name: VoteAdd
+version: version-number-unknown
+main: net.syamn.voteadd.VoteAdd
+description: Voteadd plugin for MCBans server
+website: http://mcbans.com/
+##  Original Author     ##
+author: syamn
+commands:
+    voteadd:
+      usage: /voteadd - to see the help
+      description: To see the VoteAdd help.
+permissions:
+    advertise.hide:
+        default: false
+        description: Hide advertisement permission
+    advertise.admin.task:
+        default: op
+        description: Allow use task command
+    advertise.admin:
+        default: op
+        description: Allow use admin commands

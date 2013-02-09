@@ -1,0 +1,22 @@
+# VoteAdd Configuration file!
+# github: https://github.com/syamn/VoteAdd
+
+#====================#
+#   General Config   #
+#====================#
+TriggerCount: 5
+VotedMsg: '&aThanks for your vote! (%now%/5)'
+RunCommands:
+- 'give %name% diamond 5'
+- 'give %name% stone 64'
+
+#==================#
+#   Debug Config   #
+#==================#
+Debug: false
+
+#==================#
+#   DO NOT TOUCH   #
+#==================#
+# Do not touch this option! It is a check if you are running the recent configuration version
+ConfigVersion: 1
